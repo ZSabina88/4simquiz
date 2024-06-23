@@ -8,7 +8,7 @@ import ContactForm from "./components/ContactForm";
 import axios from "axios";
 import Summary from "./components/Summary";
 
-axios.defaults.baseURL = "http://localhost:8000/";
+axios.defaults.baseURL = "https://vercel.com/sabina-zeynalovas-projects/4simquiz/";
 axios.defaults.withCredentials = true;
 
 const router = createBrowserRouter([
