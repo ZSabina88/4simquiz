@@ -6,7 +6,7 @@ const UserModel = require("../models/winners");
 //middleware
 router.use(
     cors({
-        origin: ["https://4simquiz-production.vercel.app"],
+        origin: "https://4simquiz-production.vercel.app",
         credentials: true,
         methods: ["POST", "GET"]
     })
