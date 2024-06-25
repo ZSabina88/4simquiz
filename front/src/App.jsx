@@ -7,8 +7,9 @@ import Home from "./pages/Home";
 import ContactForm from "./components/ContactForm";
 import axios from "axios";
 import Summary from "./components/Summary";
-
+// "proxy":"https://4simquiz.vercel.app",
 axios.defaults.baseURL = "https://4simquiz.vercel.app";
+// axios.defaults.baseURL = "http://localhost:8000";
 axios.defaults.withCredentials = true;
 
 const router = createBrowserRouter([
