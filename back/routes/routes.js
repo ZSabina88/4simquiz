@@ -4,15 +4,15 @@ const cors = require("cors");
 const UserModel = require("../models/winners");
 
 //middleware
-// router.use(
-//     cors({
-//         // origin: ["https://4simquiz-production.vercel.app"],
-//         origin: ["http://localhost:5173"],
-//         credentials: true,
-//         // allowedHeaders: ['Content-Type', 'Authorization'],
-//         methods: ["POST", "GET"]
-//     })
-// );
+router.use(
+    cors({
+        origin: ["https://4simquiz-production.vercel.app"],
+        // origin: ["http://localhost:5173"],
+        credentials: true,
+        allowedHeaders: ['Content-Type', 'Authorization', "Access-Control-Allow-Origin", "*"],
+        methods: ["POST", "GET"]
+    })
+);
 
 router.get("/", (req, res) => {
     res.json("Hello")
