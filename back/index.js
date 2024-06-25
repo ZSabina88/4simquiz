@@ -9,15 +9,15 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 //middleware
-app.use(
-    cors({
-        origin: ["https://4simquiz-production.vercel.app"],
-        // origin: ["http://localhost:5173"],
-        credentials: true,
-        allowedHeaders: ['Content-Type', 'Authorization', "Access-Control-Allow-Origin", "*"],
-        methods: ["POST", "GET"]
-    })
-);
+// app.use(
+//     cors({
+//         origin: ["https://4simquiz-production.vercel.app"],
+//         // origin: ["http://localhost:5173"],
+//         credentials: true,
+//         allowedHeaders: ['Content-Type', 'Authorization', "Access-Control-Allow-Origin", "*"],
+//         methods: ["POST", "GET"]
+//     })
+// );
 
 // app.use((req, res, next) => {
 //     res.setHeader("Access-Control-Allow-Origin", "*");
