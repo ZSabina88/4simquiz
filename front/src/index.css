@@ -391,14 +391,26 @@ header h1 {
   }
 }
 
+.spin-container {
+  width: 100vw;
+  /* width: 1280px; */
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  position: relative;
+}
+
 .banner {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   height: 70vh;
   text-align: center;
   /* overflow: hidden; */
-  position: relative;
+  /* position: relative; */
   margin: 0;
   padding: 0;
 }
@@ -410,7 +422,7 @@ header h1 {
   top: 20%;
   left: calc(50% - 100px);
   transform-style: preserve-3d;
-  transform: perspective(1000px) rotateX(-12deg);
+  transform: perspective(1000px) rotateX(-16deg);
   transition: transform 5s ease-in-out;
   cursor: pointer;
 }
@@ -437,10 +449,15 @@ header h1 {
   justify-content: space-between;
   align-items: center;
   color: #321061;
+  /* position: relative; */
+  margin-top: 5rem;
 }
 
 .robohand img {
   width: 40%;
+  /* position: absolute;
+  bottom: -30px;
+  right: 0; */
 }
 
 .robohand button {
@@ -493,8 +510,9 @@ header h1 {
   width: 45%;
   height: 40px;
   align-self: center;
-  border: 1px solid #321061;
+  border: 1px solid #000;
   border-radius: 6px;
   margin-top: 10px;
   cursor: pointer;
+  color: #000;
 }

@@ -22,7 +22,7 @@ const Home = () => {
 
 
     return (
-        <>
+        <section className="spin-container">
             <div className='banner'>
                 <div className="slider" style={{ "--quantity": 10, transform: `perspective(1000px) rotateX(-12deg) rotateY(${spin}deg)` }}>
                     <div className='item' style={{ "--position": 1 }}><Link to="/quiz"><img src={img1} alt="4th industriial revolution" /></Link></div>
@@ -41,7 +41,7 @@ const Home = () => {
                 <button onClick={handleSpin}>Çarxı fırlat</button>
                 <img src={robohand} alt="robot hand" />
             </div>
-        </>
+        </section>
     );
 }
 

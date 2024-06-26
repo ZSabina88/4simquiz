@@ -7,22 +7,22 @@ export const postList = createAsyncThunk("winnerList/fetchList",
             const {response} = await fetch("http://localhost:8000/contact",
                 {
                     method: "POST",
-                    mode: "cors",
-                    credentials: "same-origin",
+                    // mode: "cors",
+                    // credentials: "same-origin",
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: {
+                    body: JSON.stringify({
                         name, surname, email
-                    }
+                    })
                 });
 
             if (!response.ok) {
                 throw new Error("Server error");
             }
-            // const newList = await response.json();
-            // return { newList };
-            return response;
+            const newList = await response.json();
+            return { newList };
+            // return response;
         }
         catch (error) {
             return rejectWithValue(error.message);
