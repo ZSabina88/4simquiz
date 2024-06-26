@@ -1,1188 +1,869 @@
-import $15million from "./assets/quizphotos/$1.500.000.png";
-import $65000 from "./assets/quizphotos/$65.000.png";
-import Barbar from "./assets/quizphotos/Barbar.png";
-import AssettoCorsa from "./assets/quizphotos/AssettoCorsa.png";
-import Chapter1Sezon4 from "./assets/quizphotos/Chapter1Sezon4.png";
-import DetroitBecomeHuman from "./assets/quizphotos/DetroitBecomeHuman.png";
-import Eggman from "./assets/quizphotos/Dr.Eggman.png";
-import FIFAMobile from "./assets/quizphotos/FIFAMobile.png";
-import Gekko from "./assets/quizphotos/Gekko.png";
-import GlobalElite from "./assets/quizphotos/GlobalElite.png";
-import GrandTheftAutoSanAndreas from "./assets/quizphotos/GrandTheftAutoSan-Andreas.png";
-import LittleNightmares from "./assets/quizphotos/LittleNightmares.png";
-// import MortalCombat from "./assets/MortalCombat.jpg";
-import NatusVincere from "./assets/quizphotos/NatusVincere.png";
-import Omen from "./assets/quizphotos/Omen.png";
-import PES2020 from "./assets/quizphotos/PES2020.jpg";
-import PES2020logo from "./assets/quizphotos/PES2020logo.png";
-import Palace from "./assets/quizphotos/Palace.png";
-import Payday from "./assets/quizphotos/Payday.png";
-import Persona5 from "./assets/quizphotos/Persona5.png";
-import PokemonGo from "./assets/quizphotos/PokemonGo.png";
-import PokemonGologo from "./assets/quizphotos/PokemonGologo.png";
-import Sandman from "./assets/quizphotos/Sandman.png";
-import SekiroShadowsDieTwice from "./assets/quizphotos/Sekiro.ShadowsDieTwice.jpg";
-import ShadowFight from "./assets/quizphotos/ShadowFight.png";
-import ShadowTactics from "./assets/quizphotos/ShadowTactics.BladesoftheShogun.jpg";
-import Sheeva from "./assets/quizphotos/Sheeva.jpg";
-import SuperSonicLegend from "./assets/quizphotos/Super-SonicLegend.png";
-import TheLastOfUsPart2 from "./assets/quizphotos/TheLastOfUsPart2.jpg";
-import Yakuza0 from "./assets/quizphotos/Yakuza0.jpg";
-import de_dust2 from "./assets/quizphotos/de_dust2.jpg";
-import de_overpass from "./assets/quizphotos/de_overpass.png";
-import rocketleague from "./assets/quizphotos/rocketleague.jpg";
-import Haven from "./assets/quizphotos/Haven.png"
-
 export default [
   {
-    text: 'Elektron oyunlar ən çox hansı ölkədə inkişaf edir?',
+    text: 'Which of these technologies is not a key driver of the Fourth Industrial Revolution?',
     answers: [
-      'ABŞ',
-      'Böyük Britaniya',
-      'Yaponiya',
-      'Almaniya',
+      'Telepathy',
+      'Blockchain',
+      'Artificial Intelligence (AI)',
+      'Quantum Computing',
     ],
-    img: ""
   },
   {
-    text: ' PUBG oyunun əsas məqsədi nədir?',
+    text: 'Data mining is the practice of:',
     answers: [
-      'Həyatda qalmaq və "Winner Winner Chicken Dinner" ifadəsini görmək',
-      'Ölmək',
-      'Qaçmaq',
-      'Qalib gəlib birinci olmaq',
+      'Systematically analyzing large datasets to uncover patterns',
+      'Mining for digital currencies',
+      'Developing new data storage technologies',
+      'Creating data visualization tools',
     ],
-    img: ""
   },
   {
-    text: '2017-ci ildə buraxılmış və ABŞ-nin ən çox gəlir gətirən oyunlar sırasında dördüncü olan oyun hansıdır?',
+    text: 'Quantum computing uses which phenomena to perform calculations?',
     answers: [
-      'PUBG',
-      'Souls',
-      'Royal Battle',
-      'Candy Crush',
+      'Quantum-mechanical phenomena such as entanglement and superposition',
+      'Magnetic Resonance',
+      'Electronic Impulses',
+      'Classical Mechanics',
     ],
-    img: ""
   },
   {
-    text: '2011-ci ildə buraxılmış və bütün zamanların ən çox gəlir gətirən oyunu hansıdır?',
+    text: 'Which of the following is not a cryptocurrency?',
     answers: [
-      'Minecraft',
-      'Candy Crush',
-      'PUBG',
-      'Brawl Stars',
+      'NYSE',
+      'Litecoin',
+      'Bitcoin',
+      'Ethereum',
     ],
-    img: ""
-
   },
   {
-    text: ' Candy Crush hansı ölkənin oyunudur?',
+    text: 'An angel investor is:',
     answers: [
-      'İsveç',
-      'Finlandiya',
-      'ABŞ',
-      'Rusiya',
+      'An individual providing capital for business startups, usually in exchange for equity',
+      'A spiritual guide in business',
+      'A government-funded startup mentor',
+      'A celebrity endorsing businesses',
     ],
-    img: ""
   },
   {
-    text: 'Finland videooyun şirkəti Supercell tərəfindən tərtib edilmiş çoxoyunçulu oyun hansıdır?',
+    text: 'An accelerator in the business context is:',
     answers: [
-      'Brawl Stars',
-      'Royal Match',
-      'Clash of clans',
-      'Epic Brawl',
+      'An organization offering programs with mentorship and funding to grow businesses',
+      'A device to speed up computer performance',
+      'A financial loan for businesses',
+      'An advanced business course',
     ],
-    img: ""
   },
   {
-    text: 'Aşağıdakılardan hansı Nintendonun maskotudur?',
+    text: 'A unicorn startup is defined as a company with a valuation of:',
     answers: [
-      'Mario',
-      'Kratos',
-      'Sonic',
-      'Master Chief',
+      'More than $1 billion',
+      'Over $100 million',
+      'Less than $500 million',
+      'Exactly $1 million',
     ],
-    img: ""
   },
   {
-    text: 'Fortnite hansı oyun janrındadır?',
+    text: 'A pitch deck is:',
     answers: [
-      'Battle Royale',
-      'Puzzle',
-      'Role-Playing Games (RPG)',
-      'Real-Time Strategy (RTS)',
+      'A short presentation summarizing a company\'s business model and vision',
+      'A new type of skateboard',
+      'A sales technique',
+      'An investor meeting',
     ],
-    img: ""
   },
   {
-    text: 'Hansı oyunda oyunçular müxtəlif dövrlərdə ən yaxşı sivilizasiyanı qurmaq üçün yarışırlar?',
+    text: '5G technology is the:',
     answers: [
-      'Civilization VI',
-      'Call of Duty',
-      'The Sims',
-      'Final Fantasy',
+      'Fifth-generation technology standard for cellular networks',
+      'Fourth-generation cellular network',
+      'Type of Wi-Fi',
+      'A type of computer processor',
     ],
-    img: ""
   },
   {
-    text: 'Minecraft ouyununda əsas məqsəd nədir?',
+    text: 'Cloud migration refers to:',
     answers: [
-      'Tikinti və kəşviyyat',
-      'Sirləri açmaq',
-      'Arenalarda döyüş',
-      'Yarış',
+      'Moving data or applications to a cloud computing environment',
+      'Weather forecasting techniques',
+      'Migrating data from one office location to another',
+      'Changing cloud service providers',
     ],
-    img: ""
   },
   {
-    text: 'Biri Brawl Stars oyununa aiddir:',
+    text: 'Cloud computing is best described as:',
     answers: [
-      'Oyun kuboku yolunda irəliləmək, digər oyunçularla mübarizə aparmaq, yeni personajlar açmaq və təkmilləşdirmək',
-      'Ordu qurmaq',
-      '“köyleri” inkişaf etdirmək',
-      'Birinci olmaq',
+      'Delivering IT-enabled capabilities as a service using the internet',
+      'Computing based on weather prediction models',
+      'Storing data exclusively in satellite networks',
+      'A new model of personal computing',
     ],
-    img: ""
   },
   {
-    text: 'Biri strategiya video oyunu janrındadır:',
+    text: 'The difference between natural and artificial language is that:',
     answers: [
-      'Clash of Clans',
-      'Call of Duty',
-      'Slither.io',
-      'PUBG',
+      'Natural language is a human language like English, artificial is based on formal logic',
+      'Natural language is always spoken, artificial is always written',
+      'Artificial language doesn’t exist',
+      'Natural language is computer-generated',
     ],
-    img: ""
   },
   {
-    text: 'Stive Howse tərəfindən 2016-cı ildə buraxılmış oyun hansıdır?',
+    text: 'Network security is a subset of:',
     answers: [
-      'Slither.io',
-      'Snake.io',
-      'Agar.io',
-      'Wormate.io',
+      'Cybersecurity',
+      'Internet safety',
+      'Data encryption',
+      'Social media protocols',
     ],
-    img: ""
   },
   {
-    text: 'David Baszucki, Erik Cassel  tərəfindən hazırlanmış oyun hansıdır?',
+    text: 'A Digital Footprint is:',
     answers: [
-      'Roblox',
-      'Words of Wonders',
-      'Hay Day',
-      'Subway Surfers',
+      'Traces left by a person\'s internet activities',
+      'A type of online marketing strategy',
+      'A new technology in digital printing',
+      'A carbon footprint calculation tool',
     ],
-    img: ""
   },
   {
-    text: 'Supercell şirkəti tərəfindən istehsal olunmuş oyun siyahısı hansıdır?',
+    text: 'Design Thinking is:',
     answers: [
-      'Hay Day; Brawl Stars; Boom Beach',
-      'Clash of Clans; Boom Beach; Clash Royale',
-      'Brawl Stars; Hay Day; Subway Surfers',
-      'PUBG; Clash Royale; My Talking Angela',
+      'A creative problem-solving process',
+      'A new art movement',
+      'An architectural style',
+      'A digital tool for designers',
     ],
-    img: ""
   },
   {
-    text: 'Simulyasiya janrına aid oyun hansıdır?',
+    text: 'X Æ A-12 is the son of:',
     answers: [
-      'Hay Day',
-      'Subway Surfers',
-      'Traffic Racer',
-      'Hill Climb Racing',
-    ],
-    img: ""
-  },
-  {
-    text: 'Taşa, Trikki, Freş, Luci kimi oyunçuların olduğu oyun hansıdır?',
-    answers: [
-      'Subway Surfers',
-      'Among Us',
-      'Call of Duty',
-      'Minecraft',
-    ],
-    img: ""
-  },
-  {
-    text: 'Aşağıdakı oyunlardan hansı multiplayer oyunudur?',
-    answers: [
-      'Tanki Online',
-      'Real Car Driving',
-      'Hay Day',
-      'My Talking Tom',
-    ],
-    img: ""
-  },
-  {
-    text: '“Karamel köyü” şöbəsi hansı oyundadır?',
-    answers: [
-      'Candy Crush',
-      'Minecraft',
-      'Subway Surfers',
-      'Red ball',
-    ],
-    img: ""
-  },
-  {
-    text: 'Candy Crush oyununun  “Şeker kasabası” adlı bölümü hansı səviyyələri əhatə edir?',
-    answers: [
-      '1-10',
-      '11-20',
-      '1-9',
-      '21-35',
-    ],
-    img: ""
-  },
-  {
-    text: 'Aşağıdakılardan biri tək nəfərli oyundur:',
-    answers: [
-      'Celesta',
-      'PUBG',
-      'Boom Beach',
-      'Among Us',
-    ],
-    img: ""
-  },
-  {
-    text: 'Fortnite oyununun 7-ci sezonunda hansı hadisə baş vermişdir?',
-    answers: [
-      'Tədbirdə Marshmello-nun rəqəmsal surəti Fortnite oyunçuları üçün konsert proqramı ilə çıxış edib. Konserti dərhal 10,7 milyon insan izləmişdir.',
-      'Tədbirdə Travis Scott-un rəqəmsal surəti Fortnite oyunçuları üçün konsert proqramı ilə çıxış edib. Konserti dərhal 12,3 milyon insan izlədi.',
-      'Tədbir zamanı Meteor Boş Anbarlara düşüb. Meteor 1 anbarı dağıdıb, bir anbarı isə zədələyib. Beləliklə, Boş Anbarlar Boş Deliklərə çevrildi.',
-      'Heç bir hadisə baş verməmişdir.',
-    ],
-    img: ""
-  },
-  {
-    text: '2013-cü ildə Kanadada, 2014-cü ildən isə dünya miqyasında buraxılan oyun hansıdır?',
-    answers: [
-      'Bloom Beach',
-      'Fortnite',
-      'Among Us',
-      'Hill Climb Racing',
-    ],
-    img: ""
-  },
-  {
-    text: '2012-ci ildə Finlandiyanın Fingersoft studiyası tərəfindən buraxılmış, tək nəfərli oyun hansıdır?',
-    answers: [
-      'Hill Climb Racing',
-      'Fortnite',
-      'Roblox',
-      'Hay Day',
-    ],
-    img: ""
-  },
-  {
-    text: '“Oyunçu sərt ərazilərdə sürücünü idarə edir, yol boyu sikkələr toplayır və onları avtomobilin təkmilləşdirilməsinə və nəqliyyat vasitələrinin özlərinə xərcləyir, eyni zamanda sürücünün başına və avtomobilin yanacaq mənbəyinə diqqət yetirir.” bu hansı oyundur?',
-    answers: [
-      'Hill Climb Racing',
-      'Dr.Driving',
-      'Real Car Driving',
-      'Traffic Racer',
-    ],
-    img: ""
-  },
-  {
-    text: '2018-ci ildə hansı oyun Angry Birds oyunundan sonra bir milyard yükləməyə çatan ikinci Fin mobil oyun seriyası oldu?',
-    answers: [
-      'Hill Climb Racing',
-      'Tanki Online',
-      'Call of Duty',
-      'Journey',
-    ],
-    img: ""
-  },
-  {
-    text: 'Angry Birds oyununun əsas məqsədi hansıdır?',
-    answers: [
-      'Donuzları öldürmək',
-      'Yumurtaları toplamaq',
-      'Qaçmaq',
-      'Quşları öldürmək',
-    ],
-    img: ""
-  },
-  {
-    text: 'Angry Birds oyununun Rio versiyasında əsas məqsəd nədir?',
-    answers: [
-      'Həbs olunmuş quşları sərbəst buraxmaq və ya meymunları öldürməkdir',
-      'Quşları həbs etmək',
-      'Quşları öldürmək',
-      'Donuzları öldürmək',
-    ],
-    img: ""
-  },
-  {
-    text: 'Among Us oyununda neçə rol var?',
-    answers: [
-      '2',
-      '3',
-      '4',
-      '1',
-    ],
-    img: ""
-  },
-  {
-    text: 'Among Us oyununda hansı rollar var?',
-    answers: [
-      'Məsum və Qatil',
-      'Qaçan və Ölən',
-      'Qatil',
-      'Qatil, Məsum, Ölən',
-    ],
-    img: ""
-  },
-  {
-    text: 'Among Us oyununda hansı xəritələr vardır?',
-    answers: [
-      'Kosmik Gəmi, Qərargah Binası, Planetar Baza, Dirijabl',
-      'Cinayətkarlar',
-      'Məsum və Qatil',
-      'Kosmik Baza, Dirijabl',
-    ],
-    img: ""
-  },
-  {
-    text: '“2018-ci İlinin Ən Yaxşı İndie Oyunu” mükafatına layiq görülmüş oyun hansıdır?',
-    answers: [
-      'Celesta',
-      'Hollow Knight',
-      'Journey',
-      'Dark Souls',
-    ],
-    img: ""
-  },
-  {
-    text: '“Qırmızı ölü qurtarma” olaraq tərcümə olan oyun adı hansıdır?',
-    answers: [
-      'Red Dead Redemption',
-      'Into the Breach',
-      'Red Notice',
-      'God of War',
-    ],
-    img: ""
-  },
-  {
-    text: 'Aşağıdakılardan biri yaradılış tarixinə görə ən keçmişidir?',
-    answers: [
-      'God of War',
-      'Into the Breach',
-      'Subway Surfers',
-      'Tanki Online',
-    ],
-    img: ""
-  },
-  {
-    text: 'God of War oyununa aid xüsusiyyətlər aşağıdakılardan hansıdır?',
-    answers: [
-      'Yunan mifologiyasına söykənən macera-aksiya növündə olan oyunudur',
-      '“2015-ci ilin ən yaxşı oyunu” mükafatı alıb',
-      'Simulyasiya janrına aid oyundur',
-      'Çox  nəfərli oyundur',
-    ],
-    img: ""
-  },
-  {
-    text: 'Yalnız Netflix üzvlərinin oynaya biləcəyi oyun hansıdır?',
-    answers: [
-      'Into the Beach',
-      'God of War',
-      'Fortnite',
-      'PUBG',
-    ],
-    img: ""
-  },
-  {
-    text: 'Aşağıdakılardan hansı döyüş-macəra oyunudur?',
-    answers: [
-      'Red Dead Redemption',
-      'God of War',
-      'Candy Crush',
-      'Among Us',
-    ],
-    img: ""
-  },
-  {
-    text: '2018-ci ildə Bandai Namco və Nintendo tərəfindən hazırlanmış alternativ döyüş video oyunu hansıdır?',
-    answers: [
-      'Super Smash Bros. Ultimate',
-      'Among Us',
-      'Roblox',
-      'Forza Horizon',
-    ],
-    img: ""
-  },
-  {
-    text: 'Forza Horizon:',
-    answers: [
-      'Yarış oyunudur',
-      'Döyüş oyunudur',
-      'Macəra oyunudur',
-      'Aksiya-macəra oyunudur',
-    ],
-    img: ""
-  },
-  {
-    text: '“Quarble” personajı olan oyun hansıdır?',
-    answers: [
-      'The Messenger',
-      'Celesta',
-      'Subway Surfers',
-      'Among Us',
-    ],
-    img: ""
-  },
-  {
-    text: '“Sui-qəsdçinin inancı” kimi tərcümə olunan oyun adı hansıdır?',
-    answers: [
-      'Assassin”s Creed',
-      'Forza Harison',
-      'İnto the Breach',
-      'Celesta',
-    ],
-    img: ""
-  },
-  {
-    text: 'Ginnesin rekordlar kitabına dünyada ən çox satılan atıcı seriyası kimi daxil edilmişdir oyun hansıdır?',
-    answers: [
-      'Call of Duty',
-      'Journey',
-      'Celesta',
-      'God of War',
-    ],
-    img: ""
-  },
-  {
-    text: 'Aşağıdakılardan hansı xüsusiyyət League of Legends oyununa aiddir?',
-    answers: [
-      'Döyüş oyunudur',
-      'Pullu oyundur',
-      'Ən yeni oyunlardandır',
-      'Macəra oyunudur',
-    ],
-    img: ""
-  },
-  {
-    text: 'Minecraft-ın yaradıcısı kimdir?',
-    answers: [
-      'Markus Persson',
       'Elon Musk',
-      'Steve Robbinson',
-      'İnfinity Ward',
+      'Jeff Bezos',
+      'Bill Gates',
+      'Mark Zuckerberg',
     ],
-    img: ""
   },
   {
-    text: 'Counter-Strike 2 hansı şirkət tərəfindən hazırlanıb?',
+    text: 'Which is true about 5G technology?',
     answers: [
-      'Valve Corporation',
-      'Mojang Studios',
-      'Larian Studios',
-      'Psyonix',
+      'All of the above',
+      'Provides higher multi-Gbps peak data rates only',
+      'Only has a large network capacity',
+      'Only more reliable',
     ],
-    img: ""
   },
   {
-    text: 'Left 4 Dead 2 hansı mühərrik üzərində yaradılıb?',
+    text: 'Digital models for 3D printing are commonly created using:',
     answers: [
-      'Source',
-      'Unreal Engine',
-      'Unity',
-      'CryEngine3',
+      'SolidWorks',
+      'AutoCAD',
+      'Photoshop',
+      'Microsoft Excel',
     ],
-    img: ""
   },
   {
-    text: 'Aşağıdakı hansı oyunlardan biri “Counter-Strike” oyununun özəlliklərinə bənzəyir?',
+    text: 'Which of the following is not an application of artificial intelligence?',
     answers: [
-      'Valorant',
-      'NBA 2K',
-      'The Elder Scrolls',
-      'Witcher',
+      'Database Management System',
+      'Computer Vision',
+      'Natural Language Processing',
+      'Digital assistants',
     ],
-    img: ""
   },
   {
-    text: 'Bunlardan biri “Dota 2” oyununa aiddir:',
+    text: 'The main purpose of machine learning is to:',
     answers: [
-      'Pulsuz oyundur, Steam üzərindən oynanılır',
-      'Simulyasiya janrındadır',
-      'Təknəfərli oyundur',
-      '2015-ci ildə oyun istifadəyə verilib',
+      'Enable computers to learn from data and improve over time',
+      'Program computers without human intervention',
+      'Create AI systems that outperform humans',
+      'Develop complex algorithms for data processing',
     ],
-    img: ""
   },
   {
-    text: '“Dota 2” oyununu idarə etmək üçün nədən istifadə olunur?',
+    text: 'Digital Economy primarily refers to:',
     answers: [
-      'Kompyuter klaviaturası və siçan',
-      'Telefon ekranı',
-      'Yalnız siçan',
-      'Gamepad',
+      'The convergence of computing, communication technologies, and information flow',
+      'Advanced analytical techniques for number analysis',
+      'Transforming traditional products into digital formats',
+      'Developing divisible financial instruments',
     ],
-    img: ""
   },
   {
-    text: 'Biri “World of Warcraft” oyununun personajıdır:',
+    text: 'A key feature of the assurance element in intent-based networking is:',
     answers: [
-      'Dwarf',
-      'Bjarki',
-      'Darryl',
-      'Koral',
+      'End-to-end verification of network-wide behavior',
+      'Provisioning of intent-based policies',
+      'Applying business intent to network configuration',
+      'Pre-deployment configuration verification',
     ],
-    img: ""
   },
   {
-    text: 'Təzə Counter-Strike 2 güncəlləməsində, Premierde Dust2 xəritəsini əlavə eləyiblər amma başqa bir xəritə ilə əvəzlənib. Əvəzlənən xəritə hansıdır?',
+    text: 'Three attributes indicating data as "big data" are:',
     answers: [
-      'Overpass',
-      'Nuke',
-      'Mirage',
-      'Vertigo',
+      'Velocity, volume, variety',
+      'Vulnerability, versatility, volume',
+      'Volume, versatility, visibility',
+      'Variety, vulnerability, visibility',
     ],
-    img: ""
   },
   {
-    text: '“Grand Theft Auto V” oyununun hekayəsi hansı ştatda cərəyan edir?',
+    text: 'Malicious web pages often masquerade as:',
     answers: [
-      'San-Andreas',
-      'San-Fransisko',
-      'Kaliforniya',
-      'Nyu-York',
+      'Bank and financial institutions',
+      'Technical and academic institutions',
+      'Commercial and academic institutions',
+      'Financial and technical institutions',
     ],
-    img: ""
   },
   {
-    text: 'Hansı “Grand Theft Auto V” oyununa aiddir:',
+    text: 'A network consisting of wired computers in a college classroom is a:',
     answers: [
-      'Oyunun satışı Tetris və Minecraft oyunlarının birlikdə olan satış sayından daha çoxdur',
-      'Oyunda missiyalar yoxdur',
-      'Mobil oyundur',
-      '2003-cü ildə bu oyun istehsal olunub',
+      'LAN',
+      'WAN',
+      'MAN',
+      'PAN',
     ],
-    img: ""
   },
   {
-    text: 'Bunlardan biri təknəfərli oyundur:',
+    text: 'Three benefits of cloud computing are:',
     answers: [
-      'Cyberpunk 2077',
-      'GTA',
-      'Fortnite',
-      'Call of Duty',
+      'Access to data anywhere, streamlined IT operations, reduced need for onsite IT equipment',
+      'Open-source software for large datasets, end-user data preprocessing, turning raw data into information',
+      'Utilizes end-user clients for data storage, open-source software, turning raw data into information',
+      'Streamlined IT operations, using open-source software, access to data anywhere',
     ],
-    img: ""
   },
   {
-    text: '“Cyberpunk 2077” oyununun  yaradıcısı kimdir?',
+    text: 'The first whitepaper for a cryptocurrency using blockchain was introduced by:',
     answers: [
-      'Mike Pondsmith',
-      'İnfinity Ward',
-      'David Baszucki',
-      'Erik Cassel',
+      'Satoshi Nakamoto',
+      'Elon Musk',
+      'Jeff Bezos',
+      'Mark Zuckerberg',
     ],
-    img: ""
   },
   {
-    text: 'Payday oyunu neçə seriyadan ibarətdir?',
+    text: 'The era of applying blockchain technology beyond cryptocurrency is known as:',
     answers: [
-      '2',
-      '3',
-      '4',
-      '1',
+      'Blockchain 2.0',
+      'Blockchain 1.0',
+      'Blockchain 3.0',
+      'Crypto Era',
     ],
-    img: ""
   },
   {
-    text: 'Blizzard Entertainment tərəfindən yaradılan oyun hansıdır?',
+    text: 'Blockchain technology is best described as:',
     answers: [
-      'Overwatch',
-      'Roblox',
-      'God of War',
-      'Hay Day',
+      'Decentralized, public, and digital',
+      'Centralized, private, and analog',
+      'Centralized, public, and analog',
+      'Decentralized, private, and digital',
     ],
-    img: ""
   },
   {
-    text: 'Overwatch oyununa aid deyil:',
+    text: 'In blockchain, the process of adding transactions to the ledger is known as:',
     answers: [
-      'Bu oyun aksiyon-macəra janrındadır',
-      'Blizzard Entertainment tərəfindən yaradılıb',
-      'Tək nəfərlik oyundur',
-      'Oyun 2016-cı ilin may ayında PlayStation 4 üçün çıxış etmişdir',
+      'Mining',
+      'Staking',
+      'Harvesting',
+      'Farming',
     ],
-    img: ""
   },
   {
-    text: 'Bunlardan biri “Red Dead Redemption” oyununa aid deyil:',
+    text: 'Bill Gates described "________" as a technological tour de force.',
     answers: [
-      'Oyununun 3 seriyası var',
-      'Döyüş-macəra oyunudur',
-      '2018-ci ildə satışa çıxarılmışdır',
-      'Rockstar Game tərəfindən hazırlanmışdır',
+      'Bitcoin',
+      'A digital network',
+      'A computer',
+      'Blockchain',
     ],
-    img: ""
   },
   {
-    text: 'Oyunun adını bitirin: Tom Clancy’s …',
+    text: 'VR technology can be:',
     answers: [
-      'Rainbow Six Siege',
-      'Bravo Six',
-      'Payday',
-      'Ghost’s Revenge',
+      'All of these',
+      'Non-immersive',
+      'Semi-immersive',
+      'Full-immersive',
     ],
-    img: ""
   },
   {
-    text: 'Counter-Strike 2 oyununda, “Ace” nə deməkdir?',
+    text: 'In Industry 4.0, remote data storage is facilitated by:',
     answers: [
-      '1 oyunçu qarşı komandanı tam öldürəndə',
-      'C4 qoyulanda',
-      'Xəritənin pozisiyasıdı',
-      'Komandada heç kim ölməyəndə',
+      'Cloud Computing',
+      'Artificial Intelligence',
+      'Big Data',
+      'IoT',
     ],
-    img: ""
   },
   {
-    text: 'Hansı oyun Yaponiyanın feodal dövründə qurulmuş bir samuray hekayəsindən bəhs edir?',
+    text: 'Apple sets the time to 9:41 in its ads because:',
     answers: [
-      'Ghost of Tsushima',
-      'Journey',
-      'Yakuza 0',
-      'Persona 5',
+      'Steve Jobs revealed the iPhone around 40 minutes into his 9 a.m. presentation',
+      'It\'s the average time people check their phones',
+      'It\'s the time the first Apple store opened',
+      'It represents the date of Apple\'s founding',
     ],
-    img: ""
   },
   {
-    text: 'Uncharted: Drake’s Fortune-də oyun harada kecir?',
+    text: 'Which technology company made headlines recently when its board\'s decision to fire the CEO backfired?',
     answers: [
-      'Amazon ovalığına və Cənubi Amerikanın sahillərində',
-      'Çinin ən cənubi ərazisində yerləşən Tibet yaylasinda',
-      'Kalimantandakı meşələrə və Nepaldakı şəhər',
-      'Londonun və Kolumbiyanın küçələrində',
+      'OpenAI',
+      'Meta',
+      'Google',
+      'Amazon',
     ],
-    img: ""
   },
   {
-    text: 'Uncharted seriyasının son əsas oyunu hansıdır:',
+    text: 'The Sweden-based audio streaming subscription service is:',
     answers: [
-      " Uncharted 4: A Thief's End",
-      'Uncharted: The Lost Legacy',
-      "Uncharted: Drake's Fortune",
-      'Uncharted 2: Among Thieves',
+      'Spotify',
+      'Shazam',
+      'Apple Music',
+      'SoundCloud',
     ],
-    img: ""
   },
   {
-    text: 'Roblox istifadəçilərinə hansı xüsusiyyətləri təqdim edir?',
+    text: 'The name "Instagram" originated from the combination of:',
     answers: [
-      'Hamısı',
-      'Oyunların yaradılması və paylaşılması',
-      'Oyun oynamaq',
-      'Çoxnəfərli oyun',
+      'Instant camera and telegram',
+      'Instant message and graph',
+      'Instinct and program',
+      'Instant and gramophone',
     ],
-    img: ""
   },
   {
-    text: 'Shadow Fight oyunlarında personajların döyüş üslubları və bacarıqları hansı xüsusiyyətdən asılıdır?',
+    text: 'Which social media platform is considered the fastest growing?',
     answers: [
-      'Personajın kölgəsi',
-      'Silah seçimi',
-      'Səviyyə',
-      'Avadanlıq',
+      'TikTok',
+      'Facebook',
+      'Instagram',
+      'Twitter',
     ],
-    img: ""
   },
   {
-    text: 'Modern Combat  seriyasında oyunçular hansı növ missiyalarda döyüşürlər?',
+    text: 'The technology enabling contactless payment is:',
     answers: [
-      'Terrorla mübarizə',
-      'Fantaziya sərgüzəştləri',
-      'Hərbi müharibələr',
-      'Kosmos döyüşləri',
+      'NFC (Near Field Communication)',
+      'Bluetooth',
+      'Infrared',
+      'Wi-Fi',
     ],
-    img: ""
   },
   {
-    text: 'Bunlardan hansi Modern Combat oyununun il  buraxilan oyunudur?',
+    text: '"SaaS" stands for:',
     answers: [
-      'Modern Combat:Sandstorm',
-      'Modern Combat:Black Pegasus',
-      'Modern Combat:Fallen Nation',
-      'Modern Combat:Zero Hour',
+      'Software as a Service',
+      'System as a Service',
+      'Solution as a Service',
+      'Support as a Service',
     ],
-    img: ""
   },
   {
-    text: 'Bunlardan hansı Dota oyununda zəka personajlarına aid deyil?',
+    text: '"AR" stands for:',
     answers: [
-      'Riki',
-      'Zeus',
-      'Tinker',
-      'Lina',
+      'Augmented Reality',
+      'Audio Reception',
+      'Automated Response',
+      'Advanced Robotics',
     ],
-    img: ""
   },
   {
-    text: 'Dota oyununda qəhrəmanlar xüsusiyyətlərinə  görə neçə yerə ayrılır?',
+    text: 'Google’s parent company is named:',
     answers: [
-      '3',
-      '4',
-      '1',
-      '2',
+      'Alphabet Inc',
+      'Googlix',
+      'Google Corporation',
+      'Alphabet Google',
     ],
-    img: ""
   },
   {
-    text: 'Clash of Clans oyununda klan savaşları neçə gün davam edir?',
+    text: '"USB" stands for:',
     answers: [
-      '3',
-      '4',
-      '1',
-      '2',
+      'Universal Serial Bus',
+      'United System Bandwidth',
+      'Universal System Bus',
+      'Unique Serial Band',
     ],
-    img: ""
   },
   {
-    text: 'Clash of Clans oyununda neçə əsgər kampusu ola bilər?',
+    text: 'The first iPhone was announced in:',
     answers: [
-      '7',
-      '4',
-      '5',
-      '6',
+      '2007',
+      '2004',
+      '2010',
+      '2001',
     ],
-    img: ""
   },
   {
-    text: 'Detroid Become Human oyunu hansı formata sahib oyundur?',
+    text: 'What does the abbreviation "NFT" stand for?',
     answers: [
-      'Hekayədə müxtəlif seçimlər olur, oyunçu istədiyini seçir və oyun davam edir',
-      'Seçim olmur və oyun bir hekayə üzərində davam edir',
-      'Oyunun verdiyi seçimləri oyunçu dəyişdirir və oyun davam edir',
-      'Hekayədə iki seçim olur, oyun o seçimlərdən birini seçir və oyun davam edir',
+      'Non-Fungible Token',
+      'Non-Foundable Token',
+      'New Favorite Technology',
+      'New Fictional Title',
     ],
-    img: ""
   },
   {
-    text: 'Bu personajlardan hansı Spider- Man-in düşmənlərindən deyildir?',
+    text: 'Why did Ray Tomlinson choose the "@" symbol for email addresses?',
     answers: [
-      'Brainiac',
-      'Green Goblin',
-      'Venom',
-      'DR.Octopus',
+      'Due to its clear meaning as "at" or "at the rate of."',
+      'Because it signifies the user\'s location on the internet.',
+      'To indicate the urgency of the email message.',
     ],
-    img: ""
   },
   {
-    text: 'Marvel Spider-Man 2  video oyunu neçənci ildə buraxılmışdır?',
+    text: 'What is the origin of the term "Wi-Fi"?',
     answers: [
-      '2023',
-      '2020',
-      '2021',
-      '2022',
+      'Originally named IEEE 802.11b, it was simplified to Wi-Fi for simplicity and memorability, rhyming with hi-fi.',
+      'It is an acronym for Wireless Fidelity, reflecting the high-quality wireless connection.',
+      'It stands for Wireless Internet, emphasizing its use for online connectivity.',
     ],
-    img: ""
   },
   {
-    text: 'Super Mario oyununda Marionun qardaşının adı nədir?',
+    text: 'How did the search engine "Google" get its name?',
     answers: [
-      'Luici',
-      'Bouzer',
-      'Kara',
-      'Marcus',
+      'It is an acronym representing "Global Organization of Online Goodies and Links Everywhere.',
+      'Originally inspired by the number Googol, the founders aimed to represent their mission to organize vast information. However, a domain name typo by Sean Anderson led to the name "Google."',
+      'The name "Google" was randomly generated by a computer algorithm.',
     ],
-    img: ""
   },
   {
-    text: 'Super Mario hansı oyun növündədir?',
+    text: '"Digital Economy" primarily refers to:',
     answers: [
-      'Yarış',
-      'RPG',
-      'Tapmaca',
-      'Platform',
+      'The convergence of computing, communication technologies, and information flow',
+      'Advanced analytical techniques for number analysis',
+      'Transforming traditional products into digital formats',
+      'Developing divisible financial instruments',
     ],
-    img: ""
   },
   {
-    text: 'Sonic the Hedgehog oyununda Sonic-in can qazanması üçün qızıl üzüklərin sayı neçə olmalıdır?',
+    text: 'What are three attributes that indicate that data can be big data? (Choose three.)',
     answers: [
-      '100',
-      '150',
-      '200',
-      '50',
+      'velocity',
+      'volume',
+      'variety',
+      'vision',
+      'weakness',
+      'versatility'
     ],
-    img: ""
   },
   {
-    text: 'Pokemon Go oyunu hansı platformada oynanılır?',
+    text: 'What two types of entities do malicious web pages generally resemble? (Choose two.)',
     answers: [
-      'Android və İOS',
-      'Android',
-      'İOS',
-      'Xbox',
+      'finance',
+      'bank',
+      'technical',
+      'commercial',
+      'academic',
     ],
-    img: ""
   },
   {
-    text: 'Mortal Combat 1 oyunu nə vaxt buraxılmışdır?',
+    text: 'Three benefits of cloud computing are:',
     answers: [
-      '14 sentyabr 2023',
-      '20 mart 2006',
-      '12 dekabr2010',
-      '6 iyun 2022',
+      'It provides access to organizational information anywhere and anytime.',
+      'It simplifies an organization\'s IT operations by subscribing to only the services it needs.',
+      'Eliminates or reduces the need for on-site IT equipment, maintenance, and management.',
+      'Uses open source software for distributed processing of large datasets.',
+      'It uses end-user clients to pre-process and store large amounts of data.',
+      'Transforms raw data into meaningful information by discovering patterns and relationships.'
     ],
-    img: ""
   },
   {
-    text: 'Star Wars oyununda Darth Vader personajının əsl adı nədir?',
+    text: 'Which term is commonly used to describe the real-time video transmission from a drone to the operator on the ground?',
     answers: [
-      'Anakin Skywalker',
-      'Usta Yoda',
-      'Ahsoka',
-      'Palpatine',
+      'FPV (First Person View)',
+      'Drone casting',
+      'Aerial broadcasting',
+      'Video streaming'
     ],
-    img: ""
   },
   {
-    text: 'Mortal Combat oyununda ildırım tanrısının adı nədir?',
+    text: 'When was the first iPhone announced?',
     answers: [
-      'Raiden',
-      'Johnny Cage',
-      'Scorpion',
-      'Goro',
+      '2007',
+      '2005',
+      '2009',
+      '2010'
     ],
-    img: ""
   },
   {
-    text: 'Bu hansı oyunun logosudur?',
+    text: 'What social media platform was originally designed to be a dating app?',
     answers: [
-      'Rocket League',
-      'EAFC',
-      'Car’s Soccer',
-      'Rocket Soccer',
+      'Tinder',
+      'Facebook',
+      'YouTube',
+      'Instagram'
     ],
-    img: rocketleague
   },
   {
-    text: 'Bu xəritənin adı nədir?',
+    text: 'Founded in 1938, Samsung initially dealt with which of the following segments?',
     answers: [
-      'de_dust2',
-      'de_anubis',
-      'de_mirage',
-      'de_ancient',
+      'Dried-fish, Locally-grown groceries & noodles',
+      'Mobile Phones',
+      'Textile & design',
+      'Constructions'
     ],
-    img: de_dust2
   },
   {
-    text: 'Counter-Strike 2 Mirage xəritəsində, bu pozisiyanın adı nədir?',
+    text: 'Samsung built which of the following building?',
     answers: [
-      'Palace',
-      'Appartments',
-      'Kitchen',
-      'Top-Mid',
+      'Burj Khalifa, United Arab Emirates',
+      'Shanghai Tower, China',
+      'Empire State Building, United States of America',
+      'Lotte World Tower, South Korea'
     ],
-    img: Palace
   },
   {
-    text: 'Bu personajın adı nədir?',
+    text: 'What does the \'Tick-Tock\' strategy represent in Intel\'s product development?',
     answers: [
-      'Gekko',
-      'Jett',
-      'Reyna',
-      'Brimstone',
+      'Manufacturing Process and Microarchitecture Alternation',
+      'Marketing Campaign',
+      'Clock Speed Enhancement',
+      'Release Cycle',
     ],
-    img: Gekko
   },
   {
-    text: 'Bu E-Sport komandasının tam adı nədir?',
+    text: 'The Intel Core i9 series is known for its performance in which category?',
     answers: [
-      'Natus Vincere',
-      'Navin Vida',
-      'Naoko Vian',
-      'Navika Vivien',
+      'Gaming',
+      'Energy Efficiency',
+      'Budget Computing',
+      'Graphic Design'
     ],
-    img: NatusVincere
   },
   {
-    text: 'Valorant oyununda bu xəritənin adı nədir?',
+    text: 'What does the name \'Intel\' stand for?',
     answers: [
-      'Haven',
-      'Icebox',
-      'Lotus',
-      'Ascent',
+      'Integrated Electronics',
+      'Intelligent Electronics',
+      'International Electronics',
+      'Intelligent Technology'
     ],
-    img: Haven
   },
   {
-    text: 'Rocket League oyununda, bu rankın adı nədir?',
+    text: 'Which of the following is a famous IBM mainframe computer series?',
     answers: [
-      'Super-Sonic Legend',
-      'Grand Champion',
-      'Platinum',
-      'Champion',
+      'System/360',
+      'ThinkPad',
+      'PowerPC',
+      'NetVista'
     ],
-    img: SuperSonicLegend
   },
   {
-    text: 'Counter-Strike 2 oyununda, bu rankın adı nədir?',
+    text: 'IBM is a major contributor to the development of which open-source operating system?',
     answers: [
-      'Global Elite',
-      'Legendary Eagle Master',
-      'Gold Nova 3',
-      'Immortal',
+      'Linux',
+      'Windows',
+      'macOS',
+      'Android'
     ],
-    img: GlobalElite
   },
   {
-    text: 'Counter-Strike 2 oyununda, bu Karambit | Case Hardened (Blue Gem) əsl valyuta ilə dəyəri nə qədərdir?',
+    text: 'Which streaming service company originally started as a DVD rental-by-mail service before transitioning to online streaming?',
     answers: [
-      '$1,500,000',
-      '$127',
-      '$500,001',
-      '$9,300',
+      'Netflix',
+      'Hulu',
+      'Amazon Prime Video',
+      'Disney+',
     ],
-    img: $15million
   },
   {
-    text: 'Counter-Strike 2 oyununda, bu Katowice 2014 | Titan Holo əsl valyuta ilə dəyəri nə qədərdir?',
+    text: 'What was Xiaomi\'s first product when it entered the market?',
     answers: [
-      '$65,000',
-      '$6,500',
-      '$650',
-      '$0.65',
+      'Smartphones',
+      'Smart TVs',
+      'Fitness trackers',
+      'Portable speakers'
     ],
-    img: $65000
   },
   {
-    text: 'Bu hansı oyunun personajlarıdır?',
+    text: 'Xiaomi has expanded its product range beyond smartphones to include various categories. Which of the following is NOT a product category typically associated with Xiaomi?',
     answers: [
-      'Payday',
-      'Left 4 Dead 2',
-      'The Last Of Us',
-      'Fortnite',
+      'Electric Bicycles',
+      'Smart Home Appliances',
+      'Fitness Trackers',
+      'Air Purifiers'
     ],
-    img: Payday
   },
   {
-    text: 'Bu Fortnite oyunun “emote”-udu, adı “Orange Justice”-dir. Fortnite-ın neçənci sezonunda onu almaq olurdu?',
+    text: 'Nokia was initially known for manufacturing products in which industry before entering the mobile phone market?',
     answers: [
-      'Chapter 1 Sezon 4',
-      'Chapter 1 Sezon 2',
-      'Chapter 3 Sezon 3',
-      'Chapter 2 Sezon 5',
+      'Paper',
+      'Rubber',
+      'Timber',
+      'Electronics',
     ],
-    img: Chapter1Sezon4
   },
   {
-    text: 'Bu hansı oyunun logosudur?',
+    text: 'Yandex offers a ride-hailing service similar to Uber. What is the name of this service?',
     answers: [
-      'Little Nightmares',
-      'Eye of Horus',
-      'Baldurs Gate 3',
-      'We Were Here',
+      'Yandex Go',
+      'Yandex Rides',
+      'Yandex Drive',
+      'Yandex Transport'
     ],
-    img: LittleNightmares
   },
   {
-    text: 'Bu personaj hansı oyundandır?',
+    text: 'If a website uses cookies, it means that the site can…',
     answers: [
-      'Grand Theft Auto San-Andreas',
-      'Grand Theft Auto 5',
-      'Half-Life',
-      'The Walking Dead',
+      'Track your visits and activity on the site',
+      'Protect your computer from getting viruses',
+      'Send you pop-up advertisements',
+      'Look at files saved on your computer',
     ],
-    img: GrandTheftAutoSanAndreas
   },
   {
-    text: 'Hansı oyunun logosudur?',
+    text: 'What is a \'deepfake\'?',
     answers: [
-      'Assetto Corsa',
-      'Forza Horizon',
-      'The Crew Motorfest',
-      'Aestas Caritas',
+      'A seemingly real, computer-generated image, video or audio of something that did not occur',
+      'A text-based chatbot that tricks people into thinking that they are talking to another person',
+      'A system that records and protects information online',
+      'A program that makes it look like people are using the internet from a different location'
     ],
-    img: AssettoCorsa
   },
   {
-    text: 'Bu personajın adı nədir?',
+    text: 'In 2021, Facebook changed its company name to…',
     answers: [
-      'Omen',
-      'Cypher',
-      'Iso',
-      'Phoenix',
+      'Meta',
+      'Alphabet',
+      'Cisco',
+      'Horizon'
     ],
-    img: Omen
   },
   {
-    text: 'Bu hansı xəritədir?',
+    text: 'Which of the following passwords is the most secure?',
     answers: [
-      'de_overpass',
-      'de_vertigo',
-      'de_inferno',
-      'ar_baggage',
+      'WTh!58iLf2?9zD',
+      'SportsFan1983',
+      'abc12.6.48',
+      '1234567890'
     ],
-    img: de_overpass
   },
   {
-    text: 'Aşağıdakı şəkil hansı oyun buraxılışının üz qabığıdır?',
+    text: 'How do large language models, such as ChatGPT, come up with answers to questions users submit?',
     answers: [
-      'PES 2020',
-      'PES 2019',
-      'PES 2013',
-      'PES 2011',
+      'Create a response based on word patterns and relationships it previously learned from text pulled from the internet',
+      'Randomly generate sentences that reorganize and reuse keywords found in the submitted question',
+      'Search the internet and summarize what the top results say on that topic',
+      'Use a pre-written response that plugs in keywords from the question without any understanding of what was being asked'
     ],
-    img: PES2020
   },
   {
-    text: 'Bu hansı oyunun logosudur?',
+    text: 'What is Internet Protocol (IP)?',
     answers: [
-      'PES 2020',
-      'FIFA',
-      'Mortal Combat',
-      'Counter Strike',
+      'The protocol by which data is sent from one computer to another on the Internet',
+      'The protocol by which data is turned into blocks of data known as packets',
+      'The protocol by which digital data is turned into analog data',
+      'The protocol by which analog data is turned into digital data',
     ],
-    img: PES2020logo
   },
   {
-    text: 'Bu şəkil hansı oyuna aiddir?',
+    text: 'Which of the following is a common application of drones in the environmental sector?',
     answers: [
-      'Persona 5',
-      'The Last of Us Part II',
-      'Mortal Combat',
-      'Shadow Fight',
+      'Wildlife monitoring',
+      'Food delivery',
+      'Online shopping',
+      'Social media marketing'
     ],
-    img: Persona5
   },
   {
-    text: 'Bu personaj hansı oyundandır?',
+    text: 'What technology is used to make telephone calls over the Internet possible?',
     answers: [
-      'The Last  Of Us Part 2',
-      'Persona 5',
-      'Celesta',
-      'Ghost of Tsushima',
+      'VoIP',
+      'Bluetooth',
+      'Ethernet',
+      'NFC',
     ],
-    img: TheLastOfUsPart2
   },
   {
-    text: 'Bu şəkil hansı oyunu əks etdirir?',
+    text: 'Which computer language is the most widely used?',
     answers: [
-      'Yakuza 0',
-      'Ghost of Tsushima',
-      'Nioh',
-      'Bloodborne',
+      'Java',
+      'C#',
+      'Swift',
+      'PHP',
     ],
-    img: Yakuza0
   },
   {
-    text: 'Bu şəkil hansı oyuna aiddir?',
+    text: 'Which tech buzzword is closely related to Artificial Intelligence (AI)?',
     answers: [
-      'Sekiro: Shadows Die Twice',
-      'Mortal Combat',
-      'Celesta',
-      'Yakuza 0',
+      'Machine learning',
+      'Virtual reality',
+      'Cryptocurrency',
+      'Microservices'
     ],
-    img: SekiroShadowsDieTwice
   },
   {
-    text: 'Bu hansı oyun personajıdır?',
+    text: 'What was the first cross-platform PDF software?',
     answers: [
-      'Sheeva',
-      'Subzero',
-      'Scorpion',
-      'Kitana',
+      'Able2Extract Professional',
+      'Adobe Acrobat',
+      'Foxit PhantomPDF',
+      'Nitro Pro'
     ],
-    img: Sheeva
   },
   {
-    text: 'Bu xəritə hansı oyuna aiddir?',
+    text: 'Making a compressed digital archive might produce what type of file format?',
     answers: [
-      'Shadow Tactics: Blades of the Shogun',
-      'Onimusha 3: Demon Sieg',
-      'Aragami',
-      'Ninga Gaiden',
+      'ZIP',
+      'PDF',
+      'JPEG',
+      'MP3'
     ],
-    img: ShadowTactics
   },
   {
-    text: 'Bu şəkil hansı oyuna aiddir?',
+    text: 'What does acronym FOSS stand for?',
     answers: [
-      'Shadow Fight',
-      'Mortal Combat',
-      'Marvel Snap',
-      'Dota',
+      'Free and Open-Source Software',
+      'Full Option Sensor System',
+      'Follow-On Support Service',
+      'Fiber Optics Science System'
     ],
-    img: ShadowFight
   },
   {
-    text: 'Şəkildəki personajın adı nədir?',
+    text: 'Sophia was granted citizenship in 2017 by which country, becoming the first robot to receive such status?',
     answers: [
-      'Barbar',
-      'Div',
-      'Sehrbaz',
-      'Oxçu',
+      'Saudi Arabia',
+      'United States',
+      'Japan',
+      'Germany'
     ],
-    img: Barbar
   },
   {
-    text: 'Şəkildəki personajlar hansı oyuna aiddir?',
+    text: 'What is the name of Amazon\'s virtual assistant AI technology?',
     answers: [
-      'Detroid Become Human',
-      'Resident Evil',
-      'Fortnite',
-      'GTA',
+      'Alexa',
+      'Siri',
+      'Google Assistant',
+      'Cortana'
     ],
-    img: DetroitBecomeHuman
   },
   {
-    text: 'Şəkildəki personajın adı nədir?',
+    text: 'Amazon acquired which popular online video streaming platform in 2014?',
     answers: [
-      'Sandman',
-      'Kraven The Hunter',
-      'Rhino',
-      'Green Goblin',
+      'Twitch',
+      'Hulu',
+      'Netflix',
+      'YouTube'
     ],
-    img: Sandman
   },
   {
-    text: 'Şəkildəki personaj kimdir?',
+    text: 'Which of the following is an Amazon e-reader device?',
     answers: [
-      'Dr. Eggman',
-      'Knuckles',
-      'Sonic',
-      'Pearl',
+      'Kindle',
+      'Echo',
+      'Fire TV',
+      'Alexa'
     ],
-    img: Eggman
   },
   {
-    text: 'Bu şəkil hansı oyuna aiddir?',
+    text: 'Which social media platform is known for its character limit in posts?',
     answers: [
-      'FIFA Mobile',
-      'PES  Mobile',
-      'DLS',
-      'OSM Manager',
+      'Twitter',
+      'Instagram',
+      'Facebook',
+      'LinkedIn'
     ],
-    img: FIFAMobile
   },
   {
-    text: 'Aşağıdakı şəkil hansı oyundandır?',
+    text: 'What was the original purpose of LinkedIn when it was first created?',
     answers: [
-      'Pokemon Go',
-      'Bakugan',
-      'Cille',
-      'Yu-Gi-Oh!',
+      'Professional networking and career development',
+      'Social networking for friends and family',
+      'Photo-sharing and visual content',
+      'Online gaming and entertainment'
     ],
-    img: PokemonGo
   },
   {
-    text: 'Bu hansı oyunun logosudur?',
+    text: 'What does the acronym DM commonly stand for on social media platforms?',
     answers: [
-      'Pokemon Go',
-      'Bakugan',
-      'Cille',
-      'Yu-Gi-Oh!',
+      'Direct Message',
+      'Digital Marketing',
+      'Daily Moments',
+      'Dynamic Mode'
     ],
-    img: PokemonGologo
   },
+  {
+    text: 'What was the original name of Instagram before it was acquired by Facebook?',
+    answers: [
+      'Burbn',
+      'Pixlr',
+      'Prisma',
+      'Hipstamatic'
+    ],
+  },
+  {
+    text: 'Which technology is used to authenticate users by analyzing unique physical or behavioral traits, such as fingerprints or voice patterns?',
+    answers: [
+      'Biometrics',
+      'Facial Recognition',
+      'RFID',
+      'QR Code Scanning'
+    ],
+  },
+  {
+    text: 'What is the purpose of a virtual private network (VPN) in the context of digital innovations?',
+    answers: [
+      'Ensuring secure and private communication over the internet',
+      'Enhancing virtual reality experiences',
+      'Improving voice recognition in digital assistants',
+      'Optimizing cloud computing performance'
+    ],
+  },
+  {
+    text: 'Which technology allows users to make wireless payments using their smartphones by tapping or waving the device near a contactless terminal?',
+    answers: [
+      'Near Field Communication (NFC)',
+      'QR Code',
+      'Bluetooth',
+      'RFID'
+    ],
+  },
+  {
+    text: 'The term \'DevOps\' in software development refers to:',
+    answers: [
+      'Collaboration between development and operations teams',
+      'Developing new operating systems',
+      'Deployment of mobile applications',
+      'Designing optical storage solutions'
+    ],
+  },
+  {
+    text: 'What does the hidden arrow in the Amazon logo signify?',
+    answers: [
+      'A journey from A to Z, symbolizing the extensive range of products available',
+      'The company\'s commitment to innovation and technological advancement',
+      'A representation of the Amazon rainforest\'s topography, highlighting environmental sustainability',
+      'A reflection of customer satisfaction and service excellence'
+    ],
+  },
+  {
+    text: 'Why did Ray Tomlinson choose the \'@\' symbol for email addresses?',
+    answers: [
+      'Due to its clear meaning as \'at\' or \'at the rate of.\'',
+      'To indicate the urgency of the email message',
+      'Because it signifies the user\'s location on the internet',
+      'As a random selection with no specific meaning'
+    ],
+  },
+  {
+    text: 'How did the search engine \'Google\' get its name?',
+    answers: [
+      'Originally inspired by the number Googol, the founders aimed to represent their mission to organize vast information. However, a domain name typo by Sean Anderson led to the name \'Google.\'',
+      'It is an acronym representing \'Global Organization of Online Goodies and Links Everywhere.\'',
+      'The name \'Google\' was randomly generated by a computer algorithm',
+      'It is derived from the Latin word \'Googulus,\' meaning \'to search.\''
+    ],
+  },
+  {
+    text: 'What is one common method cybercriminals use to exploit security vulnerabilities in computer systems?',
+    answers: [
+      'Exploiting outdated software with known vulnerabilities',
+      'Sending encrypted emails to enhance privacy',
+      'Running regular software updates and patches',
+      'Implementing multi-factor authentication'
+    ],
+  }
+
 ];
